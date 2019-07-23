@@ -11,8 +11,8 @@ The primary application for the method is annotatation and classification of fre
 For training, strong labels are at the level of intakes (e.g. an intake is steak) while weak ones are at the level of meals (e.g. meal contained steak and potato, but it unknown which bites are which). 
 We further assume an ontology is provided, which contains paths such as: protein->meat->beef->steak. In our ontology format:
  protein,beef  
- beef,meat  
- meat,steak
+ meat,beef  
+ beef,steak
 
 
 ## Using the code
