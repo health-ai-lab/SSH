@@ -10,7 +10,7 @@ This code implements the semi-supervised top-down hierarchical classification te
 The primary application for the method is annotatation and classification of free-living dietary data at the level of intakes. Thus at test time an intake of "steak" could be classified as "steak" or as "beef" or "meat" depending on the classifier's confidence. and correct at level 2. 
 For training, strong labels are at the level of intakes (e.g. an intake is steak) while weak ones are at the level of meals (e.g. meal contained steak and potato, but it unknown which bites are which). 
 We further assume an ontology is provided, which contains paths such as: protein->meat->beef->steak. In our ontology format:
- protein,beef  
+ protein,meat  
  meat,beef  
  beef,steak
 
